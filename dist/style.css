@@ -1,0 +1,84 @@
+
+
+body {
+    margin-top: 0;
+    background-image: url('https://kommwirmachendaseinfach.de/wp-content/uploads/2020/06/Reiseblog-Japan-Rundreise-Reisebericht--1170x680.jpg');
+    background-size: cover;
+    
+    
+    
+}
+
+
+#header {
+    text-align: center;
+    font-size: x-large;
+    color: gold;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 10px;
+  
+}
+
+#nav {
+    display:flex;
+    justify-content: space-around;
+}
+
+#about {
+    text-align: center;
+    color:white;
+    background-color: rgba(0, 0, 0, .4);
+    font-size: large;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-top: 0;
+    margin-top:15px;
+    
+}
+
+h3{
+    margin-top: 18px;
+}
+
+#contentTab {
+    display: grid;
+    justify-items:center;
+    
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    color:lawngreen;
+}
+
+.food img {
+ width: 480px;
+ height: auto;
+ margin-top: 10px;
+ 
+}
+
+.section-title{
+text-align: center;
+text-shadow: 0 0 5px ivory;
+}
+
+.section-description{
+text-align: center;
+text-shadow: 0 0 5px ivory;
+font-weight: bold;
+}
+
+button{
+    width:100px;
+    height: auto;
+    background-color: chocolate;
+    color:cornsilk;
+    font-size: large;
+
+}
